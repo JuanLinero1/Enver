@@ -1,0 +1,22 @@
+@media screen and (max-width:800px){
+    .navbar div{
+        display: none ;
+    }
+    headerImage{
+        display: block;
+    }
+
+    .secondSection {
+        margin-top: 100px;
+    }
+
+    .info div .flex-column p{
+        width: 400px;
+    }
+
+    footer div div a{
+        margin: 20px 0;
+        width: 100px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.7);;
+}
+
+body{
+    background: #19191B;
+    width: 98%;
+}
+
+nav{
+    margin: 50px 0;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+button{
+    padding: 10px 35px;
+    background: transparent;
+    border: 2px white solid;
+    border-radius: 10px;
+}   
+
+
+/* FIRST CONTAINER */
+
+main button{
+    background: #5454D4 !important;
+    color: white !important;
+    padding:15px  35px !important;
+}
+
+.firstSection .firstArticle{
+    margin: 150px 0;
+}
+
+.firstSection .firstArticle h1{
+    font-size: 4rem;
+    color: white;
+    font-weight: 700;
+}
+.firstSection .firstArticle p{
+    margin: 10px 0 30px 0;
+    width: 450px;
+}
+
+.firstSection .firstArticle button i{
+    transform: rotate(45deg);
+    margin-left: 10px;
+}
+
+
+
+/* SECOND CONTAINER */
+.secondSection div div h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.secondSection div img{
+    margin: 80px 0;
+}
+
+/* THIRD CONTAINER */
+.thirdSection .text h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    width: 600px;
+    text-align: center;
+}
+
+.info{
+    margin: 100px 0;
+}
+
+.info div{
+    margin-bottom: 50px;
+}
+
+.info div h1{
+    color: white;
+    margin: 20px 0;
+}
+
+.info div p{
+    font-size: 1.2rem;
+}
+
+
+/* FOURTH SECTION */
+.fourthSection{
+    height: 750px;
+}
+
+.fourthSection .offtrack{
+    margin-top: 80px;
+}
+.fourthSection .offtrack h1{
+    color: white;
+    opacity: none;
+    font-size: 3.5rem;
+}
+
+.fourthSection div .image{
+    width: 100%;
+}
+
+.fourthSection div .image1,
+.fourthSection div .image2,
+.fourthSection div .image3{
+    margin: 50px 20px 20px 0;
+    padding: 20px;
+    background: #1E1E20;
+    border-radius: 20px;
+    width: 10px;
+    position: relative;
+} 
+.fourthSection div .image2{
+    top:50px;
+}
+.fourthSection div .image3{
+    top: 100px;
+}
+
+
+/* FIFTH CONTAINER */
+.fifthSection{
+    background: #1E1E2080;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.fifthSection h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.fifthSection button{
+    background: #5454D4;
+    border: none;
+    border-radius: 5px !important;
+    padding: 10px 35px;
+    color: white;
+}
+
+/* footer */
+footer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer .list a{
+    margin: 0 10px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
